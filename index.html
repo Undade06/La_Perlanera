@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Perla Nera</title>
+    <link rel="icon" type="image/png" href="img/loghi/logoazzurro.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lib/leaflet.css"/>
+    <script src="lib/leaflet.js"></script>
+</head>
+<body>
+    <!-- Landing Page -->
+    <div id="landing" class="slide visible" onclick="toSlide('main')">
+        <div class="logo-center">
+            <img src="img/loghi/logoLPNazzurrino.png" alt="Logo Ristorante">
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main" class="slide hidden">
+        <header class="main-text">
+            <h1>Una cucina d'eccellenza sul mare</h1>
+            <p>Sull'esclusivo yacht, il nostro chef trasforma il pescato fresco in creazioni raffinate, per un'esperienza unica di sapori e lusso</p>
+        </header>
+
+        <div class="logo-main">
+            <img src="img/loghi/logoLPNazzurrino.png" alt="Logo Ristorante">
+        </div>
+
+        <!-- Navigation Sidebar -->
+        <input id="checkbox" type="checkbox">
+        <div class="sidebar">
+            <div class="menu-toggle">
+                <label class="toggle" for="checkbox">
+                    <div id="bar1" class="bars"></div>
+                    <div id="bar2" class="bars"></div>
+                    <div id="bar3" class="bars"></div>
+                </label>
+            </div>
+            <div id="social">
+                <img id="tripadvisor" src="img/tripadvisor.png" onclick="window.open('https://youtu.be/idZ4llGmySg')" alt="Logo tripadvisor">
+                <img id="facebook" src="img/facebook.png" onclick="window.open('https://quizpanda.com/it/the-fish-test-which-fish-are-you/')" alt="Logo Facebook">
+                <img id="instagram" src="img/instagram.png" onclick="window.open('https://www.instagram.com/p/CReiLqKrDcy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==g')" alt="Logo Instagram">
+            </div>
+        </div>
+        <nav class="sidebar-extension">
+            <div class="nav-buttons">
+                <button onclick="toSlide('about')">Informazioni</button>
+                <button onclick="toSlide('staff')">Staff</button>
+                <button onclick="toSlide('events')">Eventi</button>
+                <button onclick="toSlide('menu')">Menu</button>
+                <button onclick="toSlide('login')">Prenotazione</button>
+            </div>
+        </nav>
+        <button id="scroll-down" onclick="location.href='#image-slider'">↓</button>
+        <!-- Main Sections -->
+        <div class="sections">
+            <div class="content-left">
+                <section class="section-card" id="sec_about">
+                    <h2>Chi siamo</h2>
+                    <p class="section-description">Un'esperienza culinaria esclusiva a bordo del nostro yacht di lusso. Dove l'eccellenza del mare incontra l'eleganza della navigazione.</p>
+                    <div class="container">
+                        <button class="btn" onclick="toSlide('about')">prosegui</button>
+                    </div>
+                </section>
+
+                <section class="section-card" id="sec_staff">
+                    <h2>Staff</h2>
+                    <p class="section-description">Il nostro team di chef stellati e sommelier selezionati vi guiderà in un viaggio gastronomico tra le più pregiate specialità marine.</p>
+                    <div class="container">
+                        <button class="btn" onclick="toSlide('staff')">prosegui</button>
+                    </div>
+                </section>
+
+                <section class="section-card" id="sec_events">
+                    <h2>Eventi</h2>
+                    <p class="section-description">Cene esclusive al tramonto, degustazioni di caviale e champagne, eventi privati in mare aperto per momenti indimenticabili.</p>
+                    <div class="container">
+                        <button class="btn" onclick="toSlide('events')">prosegui</button>
+                    </div>
+                </section>
+
+                <section class="section-card" id="sec_menu">
+                    <h2>Menu</h2>
+                    <p class="section-description">Pesce pregiato pescato giornalmente, crostacei rari e preparazioni raffinate che esaltano i sapori autentici del mare.</p>
+                    <div class="container">
+                        <button class="btn" onclick="toSlide('menu')">prosegui</button>
+                    </div>
+                </section>
+
+                <section class="section-card" id="sec_reservation">
+                    <h2>Prenotazioni</h2>
+                    <p class="section-description">Riservate la vostra esperienza esclusiva a bordo. Ogni dettaglio sarà curato per rendere la vostra serata semplicemente perfetta.</p>
+                    <div class="container">
+                        <button class="btn" onclick="toSlide('login')">prosegui</button>
+                    </div>
+                </section>
+            </div>
+
+            <div class="content-right">
+                <div id="image-slider"></div>
+            </div>
+        </div>
+        <footer class="main-footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="img/loghi/logoLPNazzurrino.png" alt="Logo La Perla Nera">
+                </div>
+                <div class="footer-info">
+                    <div class="footer-section">
+                        <h4>Contatti</h4>
+                        <p>Tel: +39 123 456 7890</p>
+                        <p>Email: info@laperlanera.com</p>
+                        <p>Porto di Monaco, Molo A</p>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Orari</h4>
+                        <p>Pranzo: 12:30 - 14:30</p>
+                        <p>Cena: 19:30 - 23:00</p>
+                        <p>Ritrovo Molo A Monaco</p>
+                        <p>Aperto tutti i giorni su prenotazione</p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 La Perla Nera. Tutti i diritti riservati.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- About Page -->
+    <div id="about" class="slide hidden">
+        <h1>Chi Siamo</h1>
+        <div class="about-container">
+            <section class="about-description">
+                <h2>Un'Esperienza Culinaria Unica</h2>
+                <p>Benvenuti a bordo della nostra esclusiva esperienza gastronomica sul mare. Il nostro ristorante di lusso, situato su uno yacht di prestigio, offre un'avventura culinaria indimenticabile della durata di un'intera giornata.</p>
+                <p>Il vostro viaggio inizia con un raffinato pranzo preparato dai nostri chef stellati, seguito da attività esclusive sul mare che includono:</p>
+                <ul>
+                    <li>Degustazioni di vini pregiati</li>
+                    <li>Attività acquatiche di lusso</li>
+                    <li>Relax su ponti privati</li>
+                </ul>
+                <p>Nel pomeriggio, vi delizieremo con una raffinata "merenda" mediterranea, per concludere la giornata con una cena gourmet al tramonto, circondati dalla bellezza del Mar Mediterraneo.</p>
+            </section>
+            <section class="about-map">
+                <h2>La Nostra Posizione</h2>
+                <div id="map"></div>
+                <p class="coordinates">Coordinate: 43°43',7N – 007°25',4E</p>
+            </section>
+        </div>
+        <button onclick="toSlide('main')" class="back-btn">Torna Indietro</button>
+    </div>
+
+    <!-- Staff Page -->
+    <div id="staff" class="slide hidden">
+        <h1>Il Nostro Staff</h1>
+        <div class="staff-container">
+            <div class="staff-member">
+                <div class="staff-image">
+                    <img src="img/Staff/cheffPeppino.webp" alt="Il nostro chef Peppino">
+                </div>
+                <div class="staff-description">
+                    <h2>Chef Peppino</h2>
+                    <p>Peppino, il rinomato chef italiano, è una figura di eleganza culinaria e innovazione. Come capo chef presso "La Perla Nera," offre un'esperienza gastronomica senza pari. Con una dedizione straordinaria, guida i suoi ospiti attraverso un viaggio culinario di un giorno intero, progettato per celebrare il gusto autentico italiano arricchito da tocchi moderni e raffinati.</p>
+                    <p>Con la sua divisa immacolata, Peppino si distingue per la sua precisione e attenzione ai dettagli, come si vede nel suo approccio meticoloso all'impiattamento e alla scelta degli ingredienti. La sua cucina riflette un equilibrio tra tradizione e innovazione, utilizzando prodotti freschi e di alta qualità per creare piatti che risvegliano i sensi.</p>
+                </div>
+            </div>
+
+            <div class="staff-member reverse">
+                <div class="staff-image">
+                    <img src="img/Staff/caterinaAiutoCheff.webp" alt="Caterina, la nostra assistente chef">
+                </div>
+                <div class="staff-description">
+                    <h2>Caterina - Sous Chef</h2>
+                    <p>Caterina, la dinamica sous-chef di origini italiane, è la spalla destra di Peppino a "La Perla Nera." Con il suo sorriso contagioso e una sicurezza disarmante, è una figura fondamentale nella creazione dell'esperienza gastronomica che dura un'intera giornata, collaborando a stretto contatto con il capo chef per portare l'autenticità e la creatività della cucina italiana a nuovi livelli.</p>
+                    <p>Con anni di esperienza in cucine prestigiose, Caterina è esperta nell'equilibrare il rigore culinario con una passione genuina per la sua arte. La sua versatilità, combinata con la capacità di lavorare sotto pressione, la rende un pilastro in cucina.</p>
+                </div>
+            </div>
+
+            <div class="staff-member">
+                <div class="staff-image">
+                    <img src="img/Staff/camerieri.webp" alt="I nostri camerieri">
+                </div>
+                <div class="staff-description">
+                    <h2>Il Nostro Team di Sala</h2>
+                    <p>I camerieri de "La Perla Nera" incarnano l'eleganza e la professionalità che contraddistinguono l'esperienza unica offerta dal ristorante di lusso a bordo dello yacht a Monte Carlo. Con il loro aspetto impeccabile e modi cortesi, rappresentano il perfetto equilibrio tra discrezione e attenzione al dettaglio, garantendo che ogni ospite si senta accolto e coccolato in ogni momento.</p>
+                    <p>Esperti nell'arte del servizio, conoscono ogni piatto del menu, dalle creazioni uniche dello chef Peppino alle proposte classiche reinterpretate. Sono sempre pronti a consigliare abbinamenti con i migliori vini della cantina, adattando le loro raccomandazioni ai gusti e alle preferenze individuali degli ospiti.</p>
+                </div>
+            </div>
+
+            <div class="staff-member reverse">
+                <div class="staff-image">
+                    <img src="img/Staff/extra-large.webp" alt="Il nostro rinomato veliero">
+                </div>
+                <div class="staff-description">
+                    <h2>La Perla Nera - Il Nostro Yacht</h2>
+                    <p>Questo yacht a vela di lusso, chiamato "Perla Nera", è un'imbarcazione spettacolare con un design elegante e imponenti vele che dominano il mare. Attraccato nel prestigioso porto di Montecarlo, offre un'esperienza culinaria esclusiva di un'intera giornata.</p>
+                    <p>Il ristorante a bordo propone piatti gourmet preparati da chef stellati, utilizzando ingredienti freschi e raffinati, accompagnati da vini pregiati. Gli ospiti possono godere di viste mozzafiato sul Mar Mediterraneo mentre si rilassano in un ambiente sofisticato e raffinato.</p>
+                </div>
+            </div>
+        </div>
+        <button onclick="toSlide('main')" class="back-btn">Torna Indietro</button>
+    </div>
+
+    <!-- Events Page -->
+    <div id="events" class="slide hidden">
+        <h1>Eventi</h1>
+        <div class="events-layout">
+            <div class="scheduled-event">
+                <h2>Evento Programmato</h2>
+                <div class="event-content">
+                    <h3>Cena di Gala sotto le Stelle</h3>
+                    <div class="event-info">
+                        <p><strong>Data:</strong> 15 Gennaio 2024</p>
+                        <p><strong>Ora:</strong> 20:00</p>
+                        <p><strong>Prezzo:</strong> €250 per persona</p>
+                    </div>
+                    <div class="event-details">
+                        <p>Una serata esclusiva a bordo del nostro yacht di lusso. Gli ospiti saranno accolti con champagne e canapè, seguiti da una cena di cinque portate preparata dal nostro chef stellato.</p>
+                        <div class="event-schedule">
+                            <h4>Programma della Serata:</h4>
+                            <ul>
+                                <li>20:00 - Accoglienza e aperitivo di benvenuto</li>
+                                <li>20:30 - Inizio della cena</li>
+                                <li>22:00 - Intrattenimento musicale dal vivo</li>
+                                <li>23:30 - Dessert e digestivi</li>
+                                <li>00:30 - Conclusione della serata</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="upcoming-events">
+                <h2>Prossimi Eventi</h2>
+                <div class="events-grid">
+                    <div class="event-item">
+                        <h3>Degustazione di Champagne e Ostriche</h3>
+                        <div class="event-description">
+                            <p>Una selezione di ostriche fresche accompagnate da champagne di pregio, con spiegazioni da un sommelier professionista.</p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <h3>Cooking Show e Masterclass</h3>
+                        <div class="event-description">
+                            <p>Una dimostrazione dal vivo di un famoso chef o una masterclass privata per gli ospiti, con possibilità di partecipare alla preparazione.</p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <h3>Degustazione di Sigari e Whisky Rari</h3>
+                        <div class="event-description">
+                            <p>Un'esperienza dedicata agli amanti del tabacco e degli alcolici di qualità.</p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <h3>Escursione Notturna sotto le Stelle</h3>
+                        <div class="event-description">
+                            <p>Navigazione serale, con luci subacquee e telescopi per osservare le stelle.</p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <h3>Tour Panoramico della Costa Azzurra</h3>
+                        <div class="event-description">
+                            <p>Escursioni diurne lungo la costa, con soste per snorkeling o visita a baie nascoste.</p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <h3>Esclusivo Evento Networking</h3>
+                        <div class="event-description">
+                            <p>Una giornata dedicata a incontri di alto profilo per uomini d'affari e VIP, con attività strutturate e tempo libero.</p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <h3>Shooting Fotografico o Videografico di Lusso</h3>
+                        <div class="event-description">
+                            <p>Una sessione fotografica o un video esclusivo per gli ospiti, con ambientazioni glamour sullo yacht.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button onclick="toSlide('main')" class="back-btn">Torna Indietro</button>
+    </div>
+
+    <!-- Menu Page -->
+    <div id="menu" class="slide hidden">
+        <h1>Il nostro Menu</h1>
+        <div class="menu-layout">
+            <aside id="menu-sidebar" class="menu-sidebar"></aside>
+            <main id="menu-container" class="menu-container"></main>
+        </div>
+        <button onclick="toSlide('main')" class="back-btn">Torna Indietro</button>
+    </div>
+
+    <div id="login" class="slide hidden">
+        <h1>Effettua il Login</h1>
+        <div id="login-container">
+            <label for="usernameLog">Nome Utente</label><input type="text" id="usernameLog" placeholder="Nome Utente">
+            <label for="emailLog">Email</label><input type="email" id="emailLog" placeholder="Email">
+            <label for="passwordLog">Password</label><input type="password" id="passwordLog" placeholder="Password">
+            <div id="login-error"></div>
+            <div class="button-container">
+                <button id="loginBtn" onclick="login()">Login</button>
+                <button id="registerBtn" onclick="toSlide('register')">Registrati</button>
+            </div>
+        </div>
+        <button onclick="toSlide('main')" class="back-btn">Torna Indietro</button>
+    </div>
+
+    <div id="register" class="slide hidden">
+        <h1>Effettua la Registrazione</h1>
+        <div id="register-container">
+            <label for="usernameReg">Nome Utente</label><input type="text" id="usernameReg" placeholder="Nome Utente">
+            <label for="emailReg">Email</label><input type="email" id="emailReg" placeholder="Email">
+            <label for="passwordReg">Password</label><input type="password" id="passwordReg" placeholder="Password">
+            <label for="confirmPasswordReg">Conferma Password</label><input type="password" id="confirmPasswordReg" placeholder="Conferma Password">
+            <div id="register-error"></div>
+            <div class="button-container">
+                <button id="loginBtn" onclick="toSlide('login')">Indietro</button>
+                <button id="registerBtn" onclick="register()">Registrati</button>
+            </div>
+        </div>      
+        <button onclick="toSlide('main')" class="back-btn">Torna Indietro</button>    
+    </div>  
+    <!-- Reservation Page -->
+    <div id="reservation" class="slide hidden">
+        <h1>Prenota il tuo tavolo</h1>
+        <div id="reservationForm" class="reservation-form">
+            <div class="form-group">
+                <label for="phone">Numero di telefono:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="people">Numero di persone:</label>
+                <input type="number" id="people" name="people" min="1" max="20" required>
+            </div>
+
+            <div class="form-group">
+                <label for="date">Data:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+
+            <div class="form-group">
+                <label for="allergies">Allergie/Intolleranze:</label>
+                <textarea id="allergies" name="allergies" placeholder="Indica eventuali allergie o intolleranze alimentari"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="notes">Note aggiuntive:</label>
+                <textarea id="notes" name="notes" placeholder="Eventuali richieste speciali"></textarea>
+            </div>
+
+            <div id="reservation-error"></div>
+            
+            <div class="button-container submit-container">
+                <button class="submit-btn full-rounded" onclick="reservation()">
+                    <span>Prenota ora</span>
+                    <div class="border full-rounded"></div>
+                </button>
+            </div>
+        </div>
+        <button onclick="toSlide('main'), logout()" class="back-btn">Torna Indietro</button>
+    </div>
+    <!-- admin Page -->
+    <div id="admin" class="slide hidden">
+        <h1>Pannello Amministratore</h1>
+        <div class="admin-container">
+            <div class="search-container">
+                <input type="text" id="adminSearch" placeholder="Cerca utenti o prenotazioni" oninput="search()" class="admin-search">
+            </div>
+            <div class="admin-buttons">
+                <button onclick="loadUsers()" class="admin-btn">Utenti Registrati</button>
+                <button onclick="loadReservations()" class="admin-btn selected">Prenotazioni</button>
+            </div>
+            <div class="admin-content">
+                <div id="adminDataContainer"></div>
+            </div>
+            <button onclick="toSlide('main'),logout()" class="back-btn">Torna Indietro</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

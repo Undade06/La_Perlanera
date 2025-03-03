@@ -1,0 +1,109 @@
+- Menù
+- Menù di vario tipo
+- Piatti di punta
+- Chef
+- Eventi
+- Prenotare un tavolo (data,persone,contatto,cell,mail ecc)
+- Social
+- Ubicazione
+
+mail :
+laperlanera8818@gmail.com
+#laPerlanera1
+
+ISPIRAZIONE :
+- The Menu film del 2022 diretto da Mark Mylod.
+
+
+text 1 : Una cucina d'eccellenza sul mare.
+Sull'esclusivo yacht, il nostro chef trasforma il pescato fresco in creazioni raffinate, per un'esperienza unica di sapori e lusso.
+
+EVENTO programmato : 
+Esibizione di Arte Contemporanea
+Una mostra temporanea a bordo con opere di artisti locali o internazionali, in collaborazione con gallerie di lusso.
+
+EVENTI in proggrammazione: 
+Degustazione di Champagne e Ostriche
+Una selezione di ostriche fresche accompagnate da champagne di pregio, con spiegazioni da un sommelier professionista.
+
+Cooking Show e Masterclass
+Una dimostrazione dal vivo di un famoso chef o una masterclass privata per gli ospiti, con possibilità di partecipare alla preparazione.
+
+Degustazione di Sigari e Whisky Rari
+Un'esperienza dedicata agli amanti del tabacco e degli alcolici di qualità.
+
+
+Escursione Notturna sotto le Stelle
+Navigazione serale, con luci subacquee e telescopi per osservare le stelle.
+
+Tour Panoramico della Costa Azzurra
+Escursioni diurne lungo la costa, con soste per snorkeling o visita a baie nascoste.
+
+Esclusivo Evento Networking
+Una giornata dedicata a incontri di alto profilo per uomini d'affari e VIP, con attività strutturate e tempo libero.
+
+Shooting Fotografico o Videografico di Lusso
+Una sessione fotografica o un video esclusivo per gli ospiti, con ambientazioni glamour sullo yacht.
+
+STAFF = 
+- PEPPINO : 
+Peppino, il rinomato chef italiano, è una figura di eleganza culinaria e innovazione. Recentemente assunto come capo chef presso "La Perla Nera," un esclusivo ristorante situato a bordo di uno yacht a Monte Carlo, Peppino offre un’esperienza gastronomica senza pari. Con una dedizione straordinaria, guida i suoi ospiti attraverso un viaggio culinario di un giorno intero, progettato per celebrare il gusto autentico italiano arricchito da tocchi moderni e raffinati.
+
+Con la sua divisa immacolata, Peppino si distingue per la sua precisione e attenzione ai dettagli, come si vede nel suo approccio meticoloso all’impiattamento e alla scelta degli ingredienti. La sua cucina riflette un equilibrio tra tradizione e innovazione, utilizzando prodotti freschi e di alta qualità per creare piatti che risvegliano i sensi.
+
+Peppino è il cuore pulsante di "La Perla Nera," e i suoi ospiti non vivono solo un pasto, ma un’esperienza completa che abbraccia il lusso e l’arte culinaria, il tutto incorniciato dalla splendida vista del Mediterraneo.
+
+- Caterina : 
+Caterina, la dinamica sous-chef di origini italiane, è la spalla destra di Peppino a "La Perla Nera," l’esclusivo ristorante di lusso su uno yacht a Monte Carlo. Con il suo sorriso contagioso e una sicurezza disarmante, Caterina è una figura fondamentale nella creazione dell’esperienza gastronomica che dura un’intera giornata, collaborando a stretto contatto con il capo chef per portare l’autenticità e la creatività della cucina italiana a nuovi livelli.
+
+Con anni di esperienza in cucine prestigiose, Caterina è esperta nell’equilibrare il rigore culinario con una passione genuina per la sua arte. Sempre pronta a gestire ogni dettaglio, dalla preparazione degli ingredienti al perfetto coordinamento della brigata, il suo ruolo è essenziale per garantire che ogni piatto rifletta il lusso e la qualità richiesti dagli esigenti ospiti di Monte Carlo.
+
+La sua versatilità, combinata con la capacità di lavorare sotto pressione, la rende un pilastro in cucina. Con il suo stile moderno e grintoso, Caterina incarna lo spirito di "La Perla Nera," contribuendo a creare un’esperienza che unisce eleganza e autenticità culinaria.
+
+- Camerieri : 
+I camerieri de "La Perla Nera" incarnano l'eleganza e la professionalità che contraddistinguono l'esperienza unica offerta dal ristorante di lusso a bordo dello yacht a Monte Carlo. Con il loro aspetto impeccabile e modi cortesi, rappresentano il perfetto equilibrio tra discrezione e attenzione al dettaglio, garantendo che ogni ospite si senta accolto e coccolato in ogni momento.
+
+Esperti nell'arte del servizio, i camerieri conoscono ogni piatto del menu, dalle creazioni uniche dello chef Peppino alle proposte classiche reinterpretate. Sono sempre pronti a consigliare abbinamenti con i migliori vini della cantina, adattando le loro raccomandazioni ai gusti e alle preferenze individuali degli ospiti.
+
+La loro presenza è caratterizzata da efficienza e grazia: si muovono tra i tavoli con naturalezza, anticipando ogni esigenza e risolvendo ogni richiesta con rapidità e precisione. Ogni dettaglio è curato per riflettere l’atmosfera esclusiva e raffinata de "La Perla Nera," trasformando ogni pasto in un’esperienza indimenticabile.
+
+- Lo yacht : 
+Questo yacht a vela di lusso, chiamato "Perla Nera", è un'imbarcazione spettacolare con un design elegante e imponenti vele che dominano il mare. Attraccato nel prestigioso porto di Montecarlo, offre un'esperienza culinaria esclusiva di un'intera giornata.
+
+Il ristorante a bordo propone piatti gourmet preparati da chef stellati, utilizzando ingredienti freschi e raffinati, accompagnati da vini pregiati. Gli ospiti possono godere di viste mozzafiato sul Mar Mediterraneo mentre si rilassano in un ambiente sofisticato e raffinato.
+
+La "Perla Nera" rappresenta un mix perfetto tra il fascino della navigazione e l'eccellenza gastronomica, ideale per chi cerca un'esperienza indimenticabile tra lusso, comfort e alta cucina.
+
+
+@media:
+1000px = 62.5rem
+
+
+DATA BASE : 
+- Tabella 1 : prenotazioni
+- Tabella 2 : utenti(id,username,hash(password),admin(boolean)) : login
+pagina aggiuntiva, se si e un gestore
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,388 @@
+{
+    "menu": [
+      {
+        "nome": "Trilogia di Tartare di Mare",
+        "tipologia": "Antipasto",
+        "ingredienti": [
+          "Tartare di tonno rosso",
+          "Tartare di salmone selvaggio",
+          "Tartare di ricciola",
+          "Olio extravergine di oliva",
+          "Fior di sale",
+          "Erbe aromatiche fresche"
+        ],
+        "allergeni": ["Pesce"],
+        "costo": 32.50
+      },
+      {
+        "nome": "Carpaccio di Capesante con Agrumi e Melograno",
+        "tipologia": "Antipasto",
+        "ingredienti": [
+          "Capesante fresche",
+          "Arancia",
+          "Limone",
+          "Melograno",
+          "Olio extravergine di oliva",
+          "Fior di sale",
+          "Menta fresca"
+        ],
+        "allergeni": ["Molluschi"],
+        "costo": 29.50
+      },
+      {
+        "nome": "Gamberetti su Vellutata di Piselli",
+        "tipologia": "Antipasto",
+        "ingredienti": [
+          "Gamberetti",
+          "Piselli",
+          "Panna fresca",
+          "Olio extravergine di oliva",
+          "Menta"
+        ],
+        "allergeni": ["Crostacei", "Latte"],
+        "costo": 25.00
+      },
+      {
+        "nome": "Insalatina di Polpo e Patate",
+        "tipologia": "Antipasto",
+        "ingredienti": [
+          "Polpo fresco",
+          "Patate",
+          "Prezzemolo",
+          "Limone",
+          "Olio extravergine di oliva"
+        ],
+        "allergeni": ["Molluschi"],
+        "costo": 27.00
+      },
+      {
+        "nome": "Capesante Grigliate con Crema di Zafferano",
+        "tipologia": "Antipasto",
+        "ingredienti": [
+          "Capesante fresche",
+          "Zafferano",
+          "Panna fresca",
+          "Burro"
+        ],
+        "allergeni": ["Molluschi", "Latte"],
+        "costo": 30.00
+      },
+      {
+        "nome": "Risotto allo Champagne con Scampi e Lime",
+        "tipologia": "Primo",
+        "ingredienti": [
+          "Riso Carnaroli",
+          "Champagne Brut",
+          "Scampi freschi",
+          "Lime",
+          "Brodo di crostacei",
+          "Burro",
+          "Parmigiano Reggiano DOP",
+          "Prezzemolo"
+        ],
+        "allergeni": ["Crostacei", "Latte"],
+        "costo": 28.00
+      },
+      {
+        "nome": "Zuppetta di Mare allo Zafferano",
+        "tipologia": "Primo",
+        "ingredienti": [
+          "Calamari",
+          "Gamberi",
+          "Cozze",
+          "Vongole",
+          "Pomodorini",
+          "Zafferano",
+          "Brodo di pesce",
+          "Prezzemolo fresco",
+          "Pane tostato"
+        ],
+        "allergeni": ["Pesce", "Crostacei", "Molluschi", "Glutine"],
+        "costo": 38.00
+      },
+      {
+        "nome": "Spaghetti alle Vongole Veraci",
+        "tipologia": "Primo",
+        "ingredienti": [
+          "Spaghetti",
+          "Vongole veraci",
+          "Aglio",
+          "Olio extravergine di oliva",
+          "Prezzemolo"
+        ],
+        "allergeni": ["Glutine", "Molluschi"],
+        "costo": 26.00
+      },
+      {
+        "nome": "Paccheri con Ragù di Astice",
+        "tipologia": "Primo",
+        "ingredienti": [
+          "Paccheri",
+          "Astice",
+          "Pomodorini",
+          "Aglio",
+          "Olio extravergine di oliva",
+          "Prezzemolo"
+        ],
+        "allergeni": ["Glutine", "Crostacei"],
+        "costo": 35.00
+      },
+      {
+        "nome": "Ravioli al Nero di Seppia Ripieni di Granchio",
+        "tipologia": "Primo",
+        "ingredienti": [
+          "Ravioli freschi",
+          "Nero di seppia",
+          "Granchio",
+          "Ricotta",
+          "Burro"
+        ],
+        "allergeni": ["Glutine", "Crostacei", "Latte"],
+        "costo": 33.00
+      },
+      {
+        "nome": "Astice alla Catalana Rivisitato",
+        "tipologia": "Secondo",
+        "ingredienti": [
+          "Astice fresco",
+          "Pomodorini confit",
+          "Cipolla rossa di Tropea",
+          "Sedano",
+          "Olio extravergine di oliva",
+          "Aceto balsamico",
+          "Pepe rosa"
+        ],
+        "allergeni": ["Crostacei"],
+        "costo": 45.00
+      },
+      {
+        "nome": "Filetto di Branzino in Crosta di Zucchine e Mandorle",
+        "tipologia": "Secondo",
+        "ingredienti": [
+          "Filetto di branzino fresco",
+          "Zucchine",
+          "Mandorle",
+          "Olio extravergine di oliva",
+          "Timo fresco",
+          "Fior di sale",
+          "Pepe nero"
+        ],
+        "allergeni": ["Pesce", "Frutta a guscio"],
+        "costo": 34.00
+      },
+      {
+        "nome": "Gamberoni alla Griglia con Salsa al Limone",
+        "tipologia": "Secondo",
+        "ingredienti": [
+          "Gamberoni",
+          "Limone",
+          "Burro",
+          "Prezzemolo"
+        ],
+        "allergeni": ["Crostacei", "Latte"],
+        "costo": 37.00
+      },
+      {
+        "nome": "Tonno Scottato con Crosta di Sesamo",
+        "tipologia": "Secondo",
+        "ingredienti": [
+          "Tonno fresco",
+          "Semi di sesamo",
+          "Salsa di soia",
+          "Zenzero fresco"
+        ],
+        "allergeni": ["Pesce", "Soia", "Sesamo"],
+        "costo": 36.00
+      },
+      {
+        "nome": "Frittura Mista di Mare",
+        "tipologia": "Secondo",
+        "ingredienti": [
+          "Calamari",
+          "Gamberi",
+          "Pesce fresco",
+          "Farina",
+          "Olio di semi"
+        ],
+        "allergeni": ["Pesce", "Crostacei", "Glutine"],
+        "costo": 32.00
+      },
+      {
+        "nome": "Verdure Grigliate",
+        "tipologia": "Contorno",
+        "ingredienti": [
+          "Zucchine",
+          "Melanzane",
+          "Peperoni",
+          "Olio extravergine di oliva",
+          "Sale"
+        ],
+        "allergeni": [],
+        "costo": 12.00
+      },
+      {
+        "nome": "Patate al Forno con Rosmarino",
+        "tipologia": "Contorno",
+        "ingredienti": [
+          "Patate",
+          "Rosmarino",
+          "Olio extravergine di oliva",
+          "Sale"
+        ],
+        "allergeni": [],
+        "costo": 10.00
+      },
+      {
+        "nome": "Insalata Mista di Stagione",
+        "tipologia": "Contorno",
+        "ingredienti": [
+          "Lattuga",
+          "Pomodorini",
+          "Carote",
+          "Cetrioli",
+          "Olio extravergine di oliva"
+        ],
+        "allergeni": [],
+        "costo": 9.50
+      },
+      {
+        "nome": "Spinaci Saltati con Aglio",
+        "tipologia": "Contorno",
+        "ingredienti": [
+          "Spinaci freschi",
+          "Aglio",
+          "Olio extravergine di oliva",
+          "Peperoncino"
+        ],
+        "allergeni": [],
+        "costo": 11.00
+      },
+      {
+        "nome": "Tiramisù al Limone",
+        "tipologia": "Dolce",
+        "ingredienti": [
+          "Mascarpone",
+          "Savoiardi",
+          "Limone",
+          "Zucchero",
+          "Panna fresca"
+        ],
+        "allergeni": ["Glutine", "Latte", "Uova"],
+        "costo": 15.00
+      },
+      {
+        "nome": "Cheesecake ai Frutti di Bosco",
+        "tipologia": "Dolce",
+        "ingredienti": [
+          "Formaggio spalmabile",
+          "Biscotti",
+          "Burro",
+          "Frutti di bosco",
+          "Zucchero"
+        ],
+        "allergeni": ["Latte", "Glutine"],
+        "costo": 16.00
+      },
+      {
+        "nome": "Panna Cotta al Mango",
+        "tipologia": "Dolce",
+        "ingredienti": [
+          "Panna fresca",
+          "Mango",
+          "Zucchero",
+          "Gelatina alimentare"
+        ],
+        "allergeni": ["Latte"],
+        "costo": 14.00
+      },
+      {
+        "nome": "Profiteroles al Cioccolato Bianco",
+        "tipologia": "Dolce",
+        "ingredienti": [
+          "Bignè",
+          "Cioccolato bianco",
+          "Panna montata",
+          "Zucchero"
+        ],
+        "allergeni": ["Glutine", "Latte", "Uova"],
+        "costo": 17.00
+      },
+      {
+        "nome": "Cannolo Siciliano Rivisitato",
+        "tipologia": "Dolce",
+        "ingredienti": [
+          "Ricotta",
+          "Scorza di cannolo",
+          "Cioccolato fondente",
+          "Frutta candita"
+        ],
+        "allergeni": ["Glutine", "Latte"],
+        "costo": 16.50
+      },
+      {
+        "nome": "Sorbetto al Limone e Basilico",
+        "tipologia": "Dolce",
+        "ingredienti": [
+          "Limone",
+          "Basilico",
+          "Zucchero",
+          "Acqua"
+        ],
+        "allergeni": [],
+        "costo": 12.00
+      }
+    ],
+    "bevande": [
+      {
+        "nome": "Acqua Naturale",
+        "tipologia": "Acqua",
+        "costo": 4.00
+      },
+      {
+        "nome": "Acqua Frizzante",
+        "tipologia": "Acqua",
+        "costo": 4.00
+      },
+      {
+        "nome": "Cocktail Mojito al Frutto della Passione",
+        "tipologia": "Cocktail",
+        "costo": 14.00
+      },
+      {
+        "nome": "Cocktail Spritz al Melograno",
+        "tipologia": "Cocktail",
+        "costo": 12.00
+      },
+      {
+        "nome": "Cocktail Martini Dry",
+        "tipologia": "Cocktail",
+        "costo": 16.00
+      },
+      {
+        "nome": "Vino Bianco Chardonnay Riserva",
+        "tipologia": "Vino",
+        "costo": 45.00
+      },
+      {
+        "nome": "Vino Bianco Vermentino Superiore",
+        "tipologia": "Vino",
+        "costo": 38.00
+      },
+      {
+        "nome": "Vino Rosato Negroamaro",
+        "tipologia": "Vino",
+        "costo": 32.00
+      },
+      {
+        "nome": "Vino Rosso Brunello di Montalcino",
+        "tipologia": "Vino",
+        "costo": 75.00
+      },
+      {
+        "nome": "Champagne Brut Prestige",
+        "tipologia": "Champagne",
+        "costo": 110.00
+      }
+    ]
+}
+  
